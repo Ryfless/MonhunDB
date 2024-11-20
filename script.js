@@ -20,9 +20,9 @@ document.getElementById('fetchMonster').addEventListener('click', function() {
             if (monster) {
                 resultDiv.innerHTML = `
                     <h2>${monster.name}</h2>
-                    <p><strong>Deskripsi:</strong> ${monster.description}</p>
-                    <p><strong>Jenis:</strong> ${monster.type}</p>
-                    <p><strong>Spesies:</strong> ${monster.species}</p>
+                    <p><strong>Description:</strong> ${monster.description}</p>
+                    <p><strong>Type:</strong> ${monster.type}</p>
+                    <p><strong>Species:</strong> ${monster.species}</p>
                 `;
             } else {
                 resultDiv.innerHTML = `<p style="color: red;">Monster tidak ditemukan!</p>`;
